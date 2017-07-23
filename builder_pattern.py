@@ -1,4 +1,11 @@
 #create a base class
+"""
+We want to create a complex object (an object composed of many parts and created in different steps that might need to follow a specific order).
+
+Different representations of an object are required, and we want to keep the construction of an object decoupled from its representation
+
+We want to create an object at one point in time but access it at a later point
+"""
 class Computer:
     def __init__(self):
         self.serial = None
